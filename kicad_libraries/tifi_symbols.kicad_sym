@@ -9,7 +9,10 @@
     (property "Footprint" "" (id 2) (at -7.62 2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at -7.62 2.54 0)
+    (property "Datasheet" "https://sensirion.com/media/documents/296373BB/6203C5DF/Sensirion_Gas_Sensors_Datasheet_SGP40.pdf" (id 3) (at -7.62 2.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Indoor Air Quality Sensor for VOC Measurements" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SGP40-D-R4_0_0"
