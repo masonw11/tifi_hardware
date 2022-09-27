@@ -1348,7 +1348,7 @@
     (uuid 03e73a6c-6a66-4743-9386-abd83f09d2a2)
     (property "Reference" "J?" (id 0) (at 81.28 27.94 0))
     (property "Value" "BP_HEADER_2" (id 1) (at 81.28 55.88 0))
-    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x10_P1.00mm_Vertical" (id 2) (at 80.01 40.64 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" (id 2) (at 80.01 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 80.01 40.64 0)
@@ -1603,7 +1603,7 @@
   (symbol (lib_id "power:+3.3V") (at 32.385 76.2 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5be1ee84-24e6-4a1e-a679-030b25f95ea3)
-    (property "Reference" "#PWR?" (id 0) (at 32.385 80.01 0)
+    (property "Reference" "#PWR0117" (id 0) (at 32.385 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 32.385 72.644 0))
@@ -1935,7 +1935,7 @@
     (uuid eec51399-1c9c-497c-8d0a-e34cae999a37)
     (property "Reference" "J?" (id 0) (at 43.18 27.94 0))
     (property "Value" "BP_HEADER_1" (id 1) (at 43.18 55.88 0))
-    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x10_P1.00mm_Vertical" (id 2) (at 41.91 40.64 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" (id 2) (at 41.91 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 41.91 40.64 0)
@@ -1982,7 +1982,7 @@
   (symbol (lib_id "power:GND") (at 32.385 88.9 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fef7b405-bcca-4f18-8c18-a8e7a2c24140)
-    (property "Reference" "#PWR?" (id 0) (at 32.385 95.25 0)
+    (property "Reference" "#PWR0116" (id 0) (at 32.385 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 32.385 92.71 0))
@@ -2045,11 +2045,11 @@
     (path "/4594b6a6-045a-488e-8aa2-a05e73bf5148"
       (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
     )
-    (path "/5be1ee84-24e6-4a1e-a679-030b25f95ea3"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/fef7b405-bcca-4f18-8c18-a8e7a2c24140"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5be1ee84-24e6-4a1e-a679-030b25f95ea3"
+      (reference "#PWR0117") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/2c04621a-bbf8-472b-bd15-1b74530f6f21"
       (reference "C?") (unit 1) (value "100nF") (footprint "")
@@ -2061,13 +2061,13 @@
       (reference "C?") (unit 1) (value "1uF") (footprint "")
     )
     (path "/03e73a6c-6a66-4743-9386-abd83f09d2a2"
-      (reference "J?") (unit 1) (value "BP_HEADER_2") (footprint "Connector_PinHeader_1.00mm:PinHeader_2x10_P1.00mm_Vertical")
+      (reference "J?") (unit 1) (value "BP_HEADER_2") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical")
     )
     (path "/7b912d29-33dd-4ac7-bc62-fbbca0b985f1"
       (reference "J?") (unit 1) (value "SM04B-SRSS-TB(LF)(SN)") (footprint "")
     )
     (path "/eec51399-1c9c-497c-8d0a-e34cae999a37"
-      (reference "J?") (unit 1) (value "BP_HEADER_1") (footprint "Connector_PinHeader_1.00mm:PinHeader_2x10_P1.00mm_Vertical")
+      (reference "J?") (unit 1) (value "BP_HEADER_1") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical")
     )
     (path "/6e3170e0-2cfe-409f-b8c1-c7618fd99f0e"
       (reference "LDR") (unit 1) (value "NSL-19M51") (footprint "New Symbols:NSL_19M51")
