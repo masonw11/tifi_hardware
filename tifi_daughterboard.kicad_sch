@@ -1044,7 +1044,6 @@
     )
   )
 
-
   (junction (at 196.85 33.655) (diameter 0) (color 0 0 0 0)
     (uuid 1eaa17f9-b8af-42b3-a11c-db01dec481e0)
   )
@@ -1719,7 +1718,7 @@
     (uuid 0d00eb67-db68-470c-ac62-866cefaa8448)
     (property "Reference" "U1" (id 0) (at 128.905 34.29 0))
     (property "Value" "SGP40-D-R4" (id 1) (at 133.985 45.72 0))
-    (property "Footprint" "" (id 2) (at 125.73 37.465 0)
+    (property "Footprint" "TiFi Footprints:DFN-6-1EP_2.44x2.44mm_P0.8mm_EP1.25x1.7mm" (id 2) (at 125.73 37.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://sensirion.com/media/documents/296373BB/6203C5DF/Sensirion_Gas_Sensors_Datasheet_SGP40.pdf" (id 3) (at 125.73 37.465 0)
@@ -1738,7 +1737,7 @@
     (uuid 26e53336-a088-483e-9566-abc27c489b08)
     (property "Reference" "U2" (id 0) (at 180.975 33.655 0))
     (property "Value" "SHT40-AD1B-R3" (id 1) (at 185.42 43.18 0))
-    (property "Footprint" "" (id 2) (at 177.8 36.83 0)
+    (property "Footprint" "SHT40:XDCR_SHT40-AD1B-R2" (id 2) (at 177.8 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf" (id 3) (at 177.8 31.115 0)
@@ -2565,10 +2564,10 @@
       (reference "R7") (unit 1) (value "NSL-19M51") (footprint "OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical")
     )
     (path "/0d00eb67-db68-470c-ac62-866cefaa8448"
-      (reference "U1") (unit 1) (value "SGP40-D-R4") (footprint "")
+      (reference "U1") (unit 1) (value "SGP40-D-R4") (footprint "TiFi Footprints:DFN-6-1EP_2.44x2.44mm_P0.8mm_EP1.25x1.7mm")
     )
     (path "/26e53336-a088-483e-9566-abc27c489b08"
-      (reference "U2") (unit 1) (value "SHT40-AD1B-R3") (footprint "")
+      (reference "U2") (unit 1) (value "SHT40-AD1B-R3") (footprint "SHT40:XDCR_SHT40-AD1B-R2")
     )
   )
 )

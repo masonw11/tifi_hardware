@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name "STEMMA_QT")(type "KiCad")(uri "${KIPRJMOD}/kicad_libraries/footprints/STEMMA QT")(options "")(descr ""))
   (lib (name "TiFi Footprints")(type "KiCad")(uri "${KIPRJMOD}/kicad_libraries/footprints/TiFi Footprints.pretty")(options "")(descr ""))
+  (lib (name "SHT40")(type "KiCad")(uri "${KIPRJMOD}/kicad_libraries/footprints/SHT40")(options "")(descr ""))
 )
