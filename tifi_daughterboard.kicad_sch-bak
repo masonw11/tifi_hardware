@@ -2087,7 +2087,7 @@
     (property "Value" "TestPoint" (id 1) (at 182.88 79.375 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "TiFi Footprints:TestPoint_THTPad_D1.5mm_Drill1.0mm" (id 2) (at 187.96 84.455 0)
+    (property "Footprint" "" (id 2) (at 187.96 84.455 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 187.96 84.455 0)
@@ -2642,7 +2642,7 @@
       (reference "R7") (unit 1) (value "NSL-19M51") (footprint "OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical")
     )
     (path "/72459a1c-a020-478e-b63f-117caf09defb"
-      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TiFi Footprints:TestPoint_THTPad_D1.5mm_Drill1.0mm")
+      (reference "TP1") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/0d00eb67-db68-470c-ac62-866cefaa8448"
       (reference "U1") (unit 1) (value "SGP40-D-R4") (footprint "TiFi Footprints:DFN-6-1EP_2.44x2.44mm_P0.8mm_EP1.25x1.7mm")
