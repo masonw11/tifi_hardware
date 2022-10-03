@@ -2552,7 +2552,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 158.115 88.265 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 72459a1c-a020-478e-b63f-117caf09defb)
     (property "Reference" "TP1" (id 0) (at 158.115 83.185 0))
     (property "Value" "TestPoint" (id 1) (at 158.115 83.185 0)
@@ -2742,6 +2742,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/bss138lt1-d.pdf" (id 3) (at 168.275 86.995 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Link" "https://www.digikey.com/en/products/detail/onsemi/BSS138LT1G/918376" (id 4) (at 168.275 86.995 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 427b1deb-38cb-4f0d-a5ed-fe01a152623a))
