@@ -6,10 +6,11 @@
 
   (title_block
     (title "TI-FI DAUGHTERBOARD")
+    (date "2022-10-05")
     (rev "0")
     (company "UNIVERSITY OF SOUTH CAROLINA")
-    (comment 1 "<LICENSE URL HERE>")
-    (comment 2 "LICENSE: <LICENSE TITLE HERE>")
+    (comment 1 "https://opensource.org/licenses/MIT")
+    (comment 2 "LICENSE: MIT LICENSE")
   )
 
   (lib_symbols
@@ -1899,6 +1900,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d18b327a-9a75-4a92-a6aa-4e4da648ac25)
   )
+  (polyline (pts (xy 73.66 160.02) (xy 73.66 198.12))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid d2c4a53d-15d6-494b-a376-141cf9e15fe6)
+  )
   (polyline (pts (xy 73.66 110.236) (xy 73.66 160.02))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d3322529-923c-4904-b1cb-1228957b9d60)
@@ -2078,6 +2083,10 @@
     (at 247.015 106.045 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e5306da9-57a1-44c2-a71c-56b77b6fca4a)
+  )
+  (text "FIDUCIALS" (at 19.05 166.116 0)
+    (effects (font (size 1.778 1.778)) (justify left bottom))
+    (uuid eb779bf6-8a78-4e5f-847f-017f101960f6)
   )
   (text "I2C PULL-UPS" (at 80.772 116.84 0)
     (effects (font (size 1.778 1.778)) (justify left bottom))
