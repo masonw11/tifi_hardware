@@ -1910,6 +1910,14 @@
     ) (layer "B.SilkS") (width 0.127) (fill none) (tstamp 1fa7a43c-753e-4f87-bd81-fef38c32bf08))
   (gr_poly
     (pts
+      (xy 169.4688 73.7362)
+      (xy 170.4848 74.4982)
+      (xy 173.228 74.4982)
+      (xy 173.228 72.9742)
+      (xy 170.4848 72.9742)
+    ) (layer "B.SilkS") (width 0.127) (fill none) (tstamp 493af1dd-f45e-424c-9735-9259c6d31efd))
+  (gr_poly
+    (pts
       (xy 126.2634 73.66)
       (xy 127.2794 74.422)
       (xy 130.0226 74.422)
@@ -1964,7 +1972,7 @@
   (gr_text "3V3" (at 117.8814 73.7108) (layer "B.SilkS") (tstamp f25dcbc6-911f-4074-afd6-ffaacecbfd86)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "GND" (at 171.6786 73.66) (layer "B.SilkS") (tstamp fb1fb65e-da6d-475b-b9d3-37a74520cdc4)
+  (gr_text "GND" (at 171.6786 73.7362) (layer "B.SilkS") (tstamp fb1fb65e-da6d-475b-b9d3-37a74520cdc4)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "GND" (at 158.2166 100.6602) (layer "F.SilkS") (tstamp 07261790-2c6f-40e5-ae8a-0e50fee64cfc)
