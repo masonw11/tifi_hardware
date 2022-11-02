@@ -415,7 +415,7 @@
     (property "Supplier Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080BS75000/4489912?s=N4IgTCBcDaIIwFYAMSAcSBCBlA7MlIAugL5A")
     (path "/735f3bb8-721b-4c42-8593-3d9c54108500")
     (attr smd)
-    (fp_text reference "D2" (at 1.533 -2.0574 180) (layer "F.SilkS")
+    (fp_text reference "D2" (at 2.422 -2.0574 180) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e8d9f784-25d1-4f19-abd9-1f4042f65ffc)
     )
@@ -1924,6 +1924,10 @@
       (xy 130.0226 72.898)
       (xy 127.2794 72.898)
     ) (layer "B.SilkS") (width 0.127) (fill none) (tstamp b1588809-fb91-4b79-a7ea-67b433b899d4))
+  (gr_line (start 162.0774 74.1426) (end 161.5694 74.8538) (layer "F.SilkS") (width 0.15) (tstamp 08cc77b0-1cde-4508-bfb9-bc8422766eb4))
+  (gr_line (start 155.9814 74.8538) (end 155.9814 75.3618) (layer "F.SilkS") (width 0.15) (tstamp 2f3b56eb-cb16-4572-83b5-49732202a6de))
+  (gr_line (start 155.9814 74.1426) (end 155.4734 74.1426) (layer "F.SilkS") (width 0.15) (tstamp 48e85f91-9f03-4f71-821e-bbaef430b053))
+  (gr_line (start 155.4734 74.8538) (end 156.4894 74.8538) (layer "F.SilkS") (width 0.15) (tstamp 5d2dfa18-0d10-4740-8a74-93b2473ae88a))
   (gr_poly
     (pts
       (xy 120.0912 73.66)
@@ -1932,6 +1936,9 @@
       (xy 116.332 72.898)
       (xy 119.0752 72.898)
     ) (layer "F.SilkS") (width 0.127) (fill none) (tstamp 607189f0-ff6f-41ea-b54a-770dd3e2a73f))
+  (gr_line (start 155.9814 74.1426) (end 156.5148 74.1426) (layer "F.SilkS") (width 0.15) (tstamp 614dd8c0-0651-4216-9ae3-be571b92430c))
+  (gr_line (start 162.0774 74.8538) (end 162.0774 75.3618) (layer "F.SilkS") (width 0.15) (tstamp 63df75c5-a74c-421b-8880-b5d01b0b468e))
+  (gr_line (start 155.9814 74.1426) (end 155.4734 74.8538) (layer "F.SilkS") (width 0.15) (tstamp 6878b1a4-5c9f-4a1b-b11d-34fc7aff75cc))
   (gr_poly
     (pts
       (xy 169.4688 73.7362)
@@ -1948,6 +1955,9 @@
       (xy 130.048 76.962)
       (xy 127.3048 76.962)
     ) (layer "F.SilkS") (width 0.127) (fill none) (tstamp 889c34bd-ff5a-48f6-bfd2-c32bc3f62b0d))
+  (gr_line (start 162.0774 74.1426) (end 162.6108 74.1426) (layer "F.SilkS") (width 0.15) (tstamp 954d525a-3e1f-42d9-a0f9-22f807ffcdaf))
+  (gr_line (start 162.0774 74.1426) (end 161.5694 74.1426) (layer "F.SilkS") (width 0.15) (tstamp a611a0f5-1f9a-455f-af7b-b3c5ab7e6437))
+  (gr_line (start 156.4894 74.8538) (end 155.9814 74.1426) (layer "F.SilkS") (width 0.15) (tstamp b2f5e642-7c3b-4ee6-bab0-39ca371980d8))
   (gr_poly
     (pts
       (xy 126.2888 73.66)
@@ -1956,6 +1966,10 @@
       (xy 129.9972 74.422)
       (xy 127.3048 74.422)
     ) (layer "F.SilkS") (width 0.127) (fill none) (tstamp ba3c2172-07b1-4b15-8f2e-c9bbc0f332ef))
+  (gr_line (start 162.0774 74.1426) (end 162.0774 73.6346) (layer "F.SilkS") (width 0.15) (tstamp c2f2bc7b-ddd5-41d7-9945-d4d4f83ee2d5))
+  (gr_line (start 161.5694 74.8538) (end 162.5854 74.8538) (layer "F.SilkS") (width 0.15) (tstamp cabf20fc-27ed-4441-a369-605bc8a5fa8c))
+  (gr_line (start 155.9814 74.1426) (end 155.9814 73.6346) (layer "F.SilkS") (width 0.15) (tstamp e7239a0c-3ca4-4da2-b8ff-3fc270588ac4))
+  (gr_line (start 162.5854 74.8538) (end 162.0774 74.1426) (layer "F.SilkS") (width 0.15) (tstamp f630097d-6412-4a93-ad99-d7c45560ac37))
   (gr_rect (start 116.078 69.596) (end 173.482 101.854) (layer "Edge.Cuts") (width 0.1016) (fill none) (tstamp 87297b56-ab4a-4179-b543-bb97a9788b54))
   (gr_text "TI-FI DAUGHTERBOARD" (at 163.4236 99.06) (layer "B.SilkS") (tstamp 1b199fae-73f7-4757-8d90-aac9283e9c2d)
     (effects (font (size 1 1) (thickness 0.15) italic) (justify mirror))
@@ -2008,20 +2022,11 @@
   (gr_text "SGP40" (at 136.6012 91.948) (layer "F.SilkS") (tstamp 817cd214-c667-43cd-9823-8e438351ab40)
     (effects (font (size 1 1) (thickness 0.15) italic))
   )
-  (gr_text "+" (at 161.5948 74.9046) (layer "F.SilkS") (tstamp 8a4d0e7d-4729-4050-b7e3-d5cc0094b407)
-    (effects (font (size 0.508 0.508) (thickness 0.127)))
-  )
   (gr_text "LDR" (at 127.762 81.28) (layer "F.SilkS") (tstamp 9fdd87a4-2633-463d-899a-b7ce02a4c01e)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "STATUS" (at 160.2232 71.12) (layer "F.SilkS") (tstamp ad386386-d5cc-4b0a-839f-b04b873ab8fd)
     (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (gr_text "-" (at 161.5948 73.914) (layer "F.SilkS") (tstamp b528c530-58f9-4af1-a26e-6d8e1b7b7d90)
-    (effects (font (size 0.508 0.508) (thickness 0.127)))
-  )
-  (gr_text "+" (at 155.575 74.9046) (layer "F.SilkS") (tstamp c5c20a70-f9af-474b-ba6b-41a13e292427)
-    (effects (font (size 0.508 0.508) (thickness 0.127)))
   )
   (gr_text "SCL" (at 118.745 94.0816) (layer "F.SilkS") (tstamp cdcc5eaf-42a7-4e28-b251-134150558a92)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -2031,9 +2036,6 @@
   )
   (gr_text "5V" (at 128.524 73.7108) (layer "F.SilkS") (tstamp d08c9e03-45e1-4cef-b9d5-44498accde95)
     (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (gr_text "-" (at 155.575 73.914) (layer "F.SilkS") (tstamp dd762d66-5c7b-485e-b8c1-55a84896d6f3)
-    (effects (font (size 0.508 0.508) (thickness 0.127)))
   )
   (gr_text "VIN" (at 147.3708 100.6602) (layer "F.SilkS") (tstamp fc6642b4-296c-4f7a-ae4e-241ff6df845d)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -4554,6 +4556,28 @@
         (xy 116.7125 70.1045)
         (xy 172.8475 70.1045)
       )
+    )
+  )
+  (group "" (id ab7a17c3-f5e2-4269-8ec7-5181a0269141)
+    (members
+      2f3b56eb-cb16-4572-83b5-49732202a6de
+      48e85f91-9f03-4f71-821e-bbaef430b053
+      5d2dfa18-0d10-4740-8a74-93b2473ae88a
+      614dd8c0-0651-4216-9ae3-be571b92430c
+      6878b1a4-5c9f-4a1b-b11d-34fc7aff75cc
+      b2f5e642-7c3b-4ee6-bab0-39ca371980d8
+      e7239a0c-3ca4-4da2-b8ff-3fc270588ac4
+    )
+  )
+  (group "" (id af05c491-b8ff-4bb5-b11b-44654e5efaa3)
+    (members
+      08cc77b0-1cde-4508-bfb9-bc8422766eb4
+      63df75c5-a74c-421b-8880-b5d01b0b468e
+      954d525a-3e1f-42d9-a0f9-22f807ffcdaf
+      a611a0f5-1f9a-455f-af7b-b3c5ab7e6437
+      c2f2bc7b-ddd5-41d7-9945-d4d4f83ee2d5
+      cabf20fc-27ed-4441-a369-605bc8a5fa8c
+      f630097d-6412-4a93-ad99-d7c45560ac37
     )
   )
 )
