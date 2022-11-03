@@ -3032,7 +3032,7 @@
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 177.038 84.455 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 171.958 86.995 0)
+    (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/bss138lt1-d.pdf" (id 3) (at 171.958 86.995 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Supplier Link" "https://www.digikey.com/en/products/detail/onsemi/BSS138LT1G/918376" (id 4) (at 171.958 86.995 0)
