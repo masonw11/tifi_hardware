@@ -611,11 +611,11 @@
         )
       )
     )
-    (symbol "Device:Q_NMOS_DGS" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:Q_NMOS_GSD" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (id 0) (at 5.08 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "Q_NMOS_DGS" (id 1) (at 5.08 -1.27 0)
+      (property "Value" "Q_NMOS_GSD" (id 1) (at 5.08 -1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "" (id 2) (at 5.08 2.54 0)
@@ -627,10 +627,10 @@
       (property "ki_keywords" "transistor NMOS N-MOS N-MOSFET" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "N-MOSFET transistor, drain/gate/source" (id 5) (at 0 0 0)
+      (property "ki_description" "N-MOSFET transistor, gate/source/drain" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Q_NMOS_DGS_0_1"
+      (symbol "Q_NMOS_GSD_0_1"
         (polyline
           (pts
             (xy 0.254 0)
@@ -741,17 +741,17 @@
           (fill (type outline))
         )
       )
-      (symbol "Q_NMOS_DGS_1_1"
-        (pin passive line (at 2.54 5.08 270) (length 2.54)
-          (name "D" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
+      (symbol "Q_NMOS_GSD_1_1"
         (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
         )
         (pin passive line (at 2.54 -5.08 90) (length 2.54)
           (name "S" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 5.08 270) (length 2.54)
+          (name "D" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1360,6 +1360,7 @@
       )
     )
   )
+
 
   (junction (at 255.905 33.782) (diameter 0) (color 0 0 0 0)
     (uuid 1eaa17f9-b8af-42b3-a11c-db01dec481e0)
@@ -3020,7 +3021,7 @@
     (pin "2" (uuid 618c933f-cb3e-4251-be83-d8663bd597c1))
   )
 
-  (symbol (lib_id "Device:Q_NMOS_DGS") (at 171.958 86.995 0) (unit 1)
+  (symbol (lib_id "Device:Q_NMOS_GSD") (at 171.958 86.995 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a693ce77-e4fb-4d3a-afc5-f19cee5f74f8)
     (property "Reference" "Q1" (id 0) (at 178.308 85.7249 0)
@@ -3032,7 +3033,7 @@
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 177.038 84.455 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/bss138lt1-d.pdf" (id 3) (at 171.958 86.995 0)
+    (property "Datasheet" "~" (id 3) (at 171.958 86.995 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Supplier Link" "https://www.digikey.com/en/products/detail/onsemi/BSS138LT1G/918376" (id 4) (at 171.958 86.995 0)
