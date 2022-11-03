@@ -6,8 +6,8 @@
 
   (title_block
     (title "TI-FI DAUGHTERBOARD")
-    (date "2022-10-05")
-    (rev "0")
+    (date "2022-11-02")
+    (rev "1")
     (company "UNIVERSITY OF SOUTH CAROLINA")
     (comment 1 "https://opensource.org/licenses/MIT")
     (comment 2 "LICENSE: MIT LICENSE")
@@ -1360,7 +1360,6 @@
       )
     )
   )
-
 
   (junction (at 255.905 33.782) (diameter 0) (color 0 0 0 0)
     (uuid 1eaa17f9-b8af-42b3-a11c-db01dec481e0)
