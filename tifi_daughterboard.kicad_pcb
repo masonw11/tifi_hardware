@@ -674,10 +674,15 @@
       (net 40 "unconnected-(J2-Pad19)") (pinfunction "Pin_19") (pintype "passive+no_connect") (tstamp 2d66c25b-ec3f-4351-a733-9c05c0304916))
     (pad "20" thru_hole oval (at 2.54 22.86) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 41 "unconnected-(J2-Pad20)") (pinfunction "Pin_20") (pintype "passive+no_connect") (tstamp 7f1b9316-8466-41aa-a7ed-e813e62af2aa))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x10_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x10_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/kicad_libraries/3dmodels/SSW-110-23-F-D/SSW-110-23-F-D.stp"
+      (offset (xyz 1.27 -11.43 -1.7272))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 -90))
     )
   )
 
@@ -760,10 +765,15 @@
       (net 22 "I2C_SDA") (pinfunction "Pin_19") (pintype "passive") (tstamp 2ea2439f-44c9-4999-a3d3-27b525706f6a))
     (pad "20" thru_hole oval (at 2.54 22.86) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 23 "unconnected-(J1-Pad20)") (pinfunction "Pin_20") (pintype "passive+no_connect") (tstamp 3a6c57f7-cfc7-466a-8593-216f3ec954ea))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x10_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x10_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/kicad_libraries/3dmodels/SSW-110-23-F-D/SSW-110-23-F-D.stp"
+      (offset (xyz 1.27 -11.43 -1.7272))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 -90))
     )
   )
 
